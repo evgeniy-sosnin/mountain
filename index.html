@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Туристического клуб «Mountain»</title>
+</head>
+
+<body>
+	<header>
+		<nav class="main-nav">
+			<a>
+				<img src="img/logo.svg" width="99" height="21" alt="Логотип туристического клуба «Mountain»">
+			</a>
+			<ul class="site-navigation">
+				<li class="site-navigation__item">
+					<a href="#">О нас</a>
+				</li>
+				<li class="site-navigation__item">
+					<a href="#">Туры</a>
+				</li>
+				<li class="site-navigation__item">
+					<a href="#">Подбор тура</a>
+				</li>
+				<li class="site-navigation__item">
+					<a href="#">Блог</a>
+				</li>
+				<li class="site-navigation__item">
+					<a href="#">Контакты</a>
+				</li>
+			</ul>
+
+			<a href="tel:88007773325">8 (800) 777-33-25</a>
+
+			<a href="#">Поиск</a>
+			<a href="#">Личный кабинет</a>
+		</nav>
+
+	</header>
+	<main>
+		<h1 class="visually-hidden">Главная страница туристического клуба «Mountain»</h1>
+		<section class="first-screen">
+			<h2>Эверест</h2>
+			<img src="img/photo-76.jpg" width="1366" height="650" alt="Вершина горы Эверест на фоне облачного неба">
+			<a href="card.html">Подробнее</a>
+		</section>
+		<section class="climbing-tours">
+			<h2>Туры с восхождением на вершины мира</h2>
+			<p>Мы являемся экспертами в организации альпинистских туров для опытных альпинистов и для новичков. Вы можете доверить нам полную организацию вашего приключения от А до Я и быть уверенными в качестве и безопасности восхождения.</p>
+			<p>Наша компания предоставляет все необходимое: консультацию по выбору тура, перелет, визу, бронирование проживания, питание, оборудование, необходимое для восхождения, опытных гидов, полное сопровождение.</p>
+			<img src="img/map.png" width="798" height="375" alt="Карта туров">
+		</section>
+		<section class="popular-tours">
+			<h2>Популярные туры</h2>
+			<ul class="tours">
+				<li class="tours__item">
+					<h3><a href="card.html">Белуха</a></h3>
+					<img src="img/photo-55.jpg" width="370" height="326" alt="Белуха">
+					<p>Россия</p>
+					<ul>
+						<li>4506 м</li>
+						<li>12 дней</li>
+						<li>от 45000 ₽</li>
+					</ul>
+					<p>Средний уровень</p>
+					<button type="button"><span class="visually-hidden">Добавить в избранное</span></button>
+				</li>
+
+				<li class="tours__item">
+					<h3><a href="card.html">Эльбрус</a></h3>
+					<img src="img/photo-83.jpg" width="370" height="326" alt="Эльбрус">
+					<p>Россия</p>
+					<ul>
+						<li>5642 м</li>
+						<li>10 дней</li>
+						<li>25 000 ₽</li>
+					</ul>
+					<p>Средний уровень</p>
+					<button type="button"><span class="visually-hidden">Добавить в избранное</span></button>
+				</li>
+
+				<li class="tours__item">
+					<h3><a href="card.html">Килиманджаро</a></h3>
+					<img src="img/photo-43.jpg" width="370" height="326" alt="Килиманджаро">
+					<p>Танзания</p>
+					<ul>
+						<li>5895 м</li>
+						<li>4 дней</li>
+						<li>от 55000 ₽</li>
+					</ul>
+					<p>Простой уровень</p>
+					<button type="button"><span class="visually-hidden">Добавить в избранное</span></button>
+				</li>
+			</ul>
+			<button type="button">Назад</button>
+			<button type="button">Вперед</button>
+		</section>
+		<section class="prices">
+			<h2>Стоимость туров</h2>
+			<p>Россия</p>
+			<p>Более 15 туров для альпинистов всех уровней</p>
+			<table>
+				<tr>
+					<th>Вершина</th>
+					<th>Высота</th>
+					<th>Уровень</th>
+					<th>Стоимость</th>
+				</tr>
+
+				<tr>
+					<td>Эльбрус</td>
+					<td>5642 м</td>
+					<td>Средний</td>
+					<td>от 25 000 ₽</td>
+				</tr>
+
+				<tr>
+					<td>Казбек</td>
+					<td>5033 м</td>
+					<td>Сложный</td>
+					<td>от 30 000 ₽</td>
+				</tr>
+
+				<tr>
+					<td>Белуха</td>
+					<td>4506 м</td>
+					<td>Простой</td>
+					<td>от 20 000 ₽</td>
+				</tr>
+
+				<tr>
+					<td>Дыхтау</td>
+					<td>5204 м</td>
+					<td>Сложный</td>
+					<td>от 40 000 ₽</td>
+				</tr>
+			</table>
+			<a href="#">Смотреть все</a>
+		</section>
+		<section class="blog">
+			<h2>Блог</h2>
+			<ul class="blog__nav">
+				<li class="blog__nav-item blog__nav-item--active">
+					<a href="#">
+						<time datetime="2020-01-15">15 января, 2020</time>
+						<p>Как подготовиться к первому восхождению на вершину</p>
+					</a>
+				</li>
+
+				<li class="blog__nav-item">
+					<a href="#">
+						<time datetime="2020-01-10">10 января, 2020</time>
+						<p>Фестиваль Alpika Freeski Аlpindustria Fest Красная Поляна 13-16 февраля</p>
+					</a>
+				</li>
+
+				<li class="blog__nav-item">
+					<a href="#">
+						<time datetime="2019-12-20">20 декабря, 2019</time>
+						<p>Особенности альпинизма на Камчатке. Все о Ключевой Сопке</p>
+					</a>
+				</li>
+
+				<li class="blog__nav-item">
+					<a href="#">
+						<time datetime="2019-12-15">15 декабря, 2019</time>
+						<p>Что происходит с человеком на высоте более 3000 метров?</p>
+					</a>
+				</li>
+
+				<li class="blog__nav-item">
+					<a href="#">
+						<time datetime="2019-12-15">15 декабря, 2019</time>
+						<p>Что происходит с человеком на высоте более 3000 метров?</p>
+					</a>
+				</li>
+			</ul>
+			<a href="#">Читать все новости</a>
+
+			<article>
+				<h3>Как подготовиться к первому восхождению на вершину</h3>
+				<img src="img/photo-77.jpg" width="700" height="287" alt="Альпинисты идут в гору">
+				<time datetime="2020-01-15">15 января, 2020</time>
+				<p>Перед тем, как отправиться на покорение вершины горы, нужно не только привести в порядок свою физическую форму, но и тренировать выносливость, дыхательную и сердечно-сосудистую системы. Именно на них приходится максимальная нагрузка на высоте. Поэтому из-за недостаточной подготовки вы можете сойти на полпути. Чтобы этого не случилось, занимайтесь плаванием, бегом, велосипедом и кардиотренировками.</p>
+				<p>Как должны проходить тренировки? В первую очередь, тренировки должны проходить постоянно, эффективно и интенсивно. Кроме того, нагрузка постепенно должна увеличиваться. В случае с бегом обязательно делать это с учетом пульса. Грамотно спланированный бег позволит не только сбросить вес, но и укрепит сердечную мышцу. При беге с высоким пульсом вы позволите организму привыкнуть к недостатку кислорода — то, с чем обязательно встретитесь в горах. Для укрепления физической подготовки и повышения выносливости также бегайте в горку или в быстром темпе поднимайтесь по лестницам. И не забудьте отдохнуть за неделю до путешествия!</p>
+			</article>
+		</section>
+
+		<section class="help-form">
+			<h2>Нужна помощь с выбором тура?</h2>
+			<p>Заполните форму, наш менеджер свяжется с вами в ближайшее время и подберет подходящий тур</p>
+			<form action="#" method="POST">
+				<label class="visually-hidden" for="help-form-name">Имя</label>
+				<input type="text" id="help-form-name" name="help-form-name" placeholder="Имя">
+
+				<label class="visually-hidden" for="help-form-tel">Телефон</label>
+				<input type="tel" id="help-form-tel" name="help-form-tel" placeholder="Телефон">
+
+				<label class="visually-hidden" for="help-form-mail">E-mail</label>
+				<input type="email" id="help-form-mail" name="help-form-mail" placeholder="E-mail">
+
+				<button type="submit">Отправить</button>
+			</form>
+			<p>Нажимая кнопку, вы соглашаетесь с условиями обработки персональных данных</p>
+		</section>
+
+		<section class="contacts">
+			<h2>Контакты</h2>
+			<img src="img/map-office.png" width="600" height="457" alt="Карта с адресом офиса">
+			<dl class="contact__list">
+				<dt>
+					Адрес:
+				</dt>
+				<dd>
+					<address>Санкт-Петербург, ул. Большая Конюшенная, 19</address>
+				</dd>
+
+				<dt>Телефон:</dt>
+				<dd><a href="tel:88007773325">8 (800) 777-33-25</a></dd>
+
+				<dt>E-mail:</dt>
+				<dd><a href="mailto:info@mountain.ru">info@mountain.ru</a></dd>
+
+				<dt>Социальные сети:</dt>
+				<dd>
+					<ul>
+						<li><a href="#">Facebook</a></li>
+						<li><a href="#">Instagram</a></li>
+						<li><a href="#">Twitter</a></li>
+					</ul>
+				</dd>
+			</dl>
+		</section>
+
+		<footer>
+			<p class="copyright">Maroon © 2020 Все права защищены</p>
+			<a href="#">
+				<img src="img/logo.svg" width="99" height="21" alt="Логотип туристического клуба «Mountain»">
+			</a>
+			<a class="policy" href="#">Политика конфиденциальности</a>
+		</footer>
+	</main>
+</body>
+
+</html>
